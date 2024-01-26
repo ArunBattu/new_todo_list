@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-FkVsSzaxgU8qg9eLFhV5IO79ngIdFk2eT1VwDz1buTU+YyKjs6lM5z8HhOjw5U4OwATZ4dJik1/CThOVdE7UZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles/todo.css">
+  <title>Todo List</title>
+</head>
+<body>
+
+<div class="todo-container">
+  <h1>Todo List</h1>
+  <div class="todo-form">
+    <input type="text" id="todoInput" placeholder="Add a new task">
+    <button onclick="addTodo()">
+      <i class="fas fa-plus"></i> Add Task
+    </button>
+  </div>
+  <ul id="todoList"></ul>
+</div>
+
+<script src="todo.js"></script>
+</body>
+</html>
